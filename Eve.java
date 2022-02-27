@@ -3,6 +3,7 @@ class Eve{
   
   System.out.println("Hello");
   System.out.println("Good night");
+  System.out.println("New");
  
  }
 }
