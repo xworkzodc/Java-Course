@@ -31,11 +31,11 @@ class MedicinePgm{
 	  
 	  }
 	  
-	boolean find(String medicine){
+	boolean find(String medicine){//Dolo //Dolo,Avil, Crocin
 	    
 	    for(int index=0; index<medicines.length; index++){
 	  
-	    if(this.medicines[index].equals(medicine)){
+	    if(this.medicines[index].equals(medicine)){//Dolo.equals(Crocin)
 			
 	    System.out.println("The medicine "+medicine+ " is found in the list");
 		return true;
@@ -44,7 +44,7 @@ class MedicinePgm{
 		else{
 			
 		System.out.println("The medicine "+medicine+ " is not found in the list");
-		return false;
+		return false;// stops exe
 		}
 		
 	    }
